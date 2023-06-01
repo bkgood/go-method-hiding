@@ -5,7 +5,7 @@ to encapsulate some behavior it exposes.
 
 Previously, I found the first part of the solution: hiding the embedding. By nature of the embedding
 syntax, if you embed an exported type, the embedding will also be externally (to the defining
-package) visible. This can be cirumvented with an unexported type alias, which I learned about via
+package) visible. This can be circumvented with an unexported type alias, which I learned about via
 some Google search that landed me on StackOverflow or a mailing list archive that I can no longer
 find.
 
